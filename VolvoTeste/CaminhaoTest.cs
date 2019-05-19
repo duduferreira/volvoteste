@@ -1,14 +1,21 @@
 using System;
+using Microsoft.Extensions.Configuration;
 using Xunit;
 
 namespace VolvoTeste
 {
-    public class UnitTest1
+    public class CaminhaoTest
     {
-        [Fact]
-        public void Test1()
-        {
+        private IConfigutator _configurator;
 
+        public CaminhaoTest()
+        {
+            
+        }
+        [Fact]
+        public void InsertCaminhao()
+        {
+            
         }
     }
 }
