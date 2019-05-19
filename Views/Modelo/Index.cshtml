@@ -1,0 +1,47 @@
+@model IEnumerable<volvoTest.Models.Modelo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Modelo</h2>
+
+<p>
+    <a class="btn btn-primary " asp-action="Create">Novo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ativo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ativo)
+            </td>
+            <td>
+                <a class="btn btn-primary btn-xs" asp-action="Edit" asp-route-id="@item.ID">Editar</a> |
+                <a class="btn btn-default btn-xs" asp-action="Details" asp-route-id="@item.ID">Detalhes</a> |
+                <a class="btn btn-danger btn-xs" asp-action="Delete" asp-route-id="@item.ID">Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

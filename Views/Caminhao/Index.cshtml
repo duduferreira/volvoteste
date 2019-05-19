@@ -1,0 +1,53 @@
+@model IEnumerable<volvoTest.Models.Caminhao>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Caminhões</h2>
+
+<p>
+    <a class="btn btn-primary " asp-action="Create">Novo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ano)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AnoModelo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modelo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ano)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AnoModelo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Modelo.Nome)
+            </td>
+            <td>
+                <a class="btn btn-primary btn-xs" asp-action="Edit" asp-route-id="@item.CaminhaoID">Editar</a> |
+                <a class="btn btn-default btn-xs" asp-action="Details" asp-route-id="@item.CaminhaoID">Detalhes</a> |
+                <a class="btn btn-danger btn-xs" asp-action="Delete" asp-route-id="@item.CaminhaoID">Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
