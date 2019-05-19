@@ -15416,11 +15416,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Paulo Santos\\Desktop\\volvoTest\\volvoTest.csproj",
-      "projectName": "volvoTest",
-      "projectPath": "c:\\Users\\Paulo Santos\\Desktop\\volvoTest\\volvoTest.csproj",
+      "projectUniqueName": "c:\\Users\\Paulo Santos\\Desktop\\Volvo\\Volvo.csproj",
+      "projectName": "Volvo",
+      "projectPath": "c:\\Users\\Paulo Santos\\Desktop\\Volvo\\Volvo.csproj",
       "packagesPath": "C:\\Users\\Paulo Santos\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Paulo Santos\\Desktop\\volvoTest\\obj\\",
+      "outputPath": "c:\\Users\\Paulo Santos\\Desktop\\Volvo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

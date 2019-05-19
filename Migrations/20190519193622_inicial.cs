@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace volvoTest.Migrations
+namespace Volvo.Migrations
 {
     public partial class inicial : Migration
     {

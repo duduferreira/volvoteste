@@ -3,9 +3,9 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
-using volvoTest.Data;
+using Volvo.Data;
 
-namespace volvoTest
+namespace Volvo
 {
     public class Program
     {

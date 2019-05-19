@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "volvoTest/1.0.0": {
+      "Volvo/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
@@ -31,10 +31,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Tools": "2.0.4"
         },
         "runtime": {
-          "volvoTest.dll": {}
+          "Volvo.dll": {}
         },
         "compile": {
-          "volvoTest.dll": {}
+          "Volvo.dll": {}
         }
       },
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
@@ -4368,7 +4368,7 @@
     }
   },
   "libraries": {
-    "volvoTest/1.0.0": {
+    "Volvo/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

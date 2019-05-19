@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Paulo Santos\\Desktop\\volvoTest\\volvoTest.csproj",
+  "FilePath": "c:\\Users\\Paulo Santos\\Desktop\\volvo\\volvo.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2678,6 +2678,6 @@
     ],
     "CSharpLanguageVersion": 703
   },
-  "RootNamespace": "volvoTest",
+  "RootNamespace": "volvo",
   "Documents": []
 }

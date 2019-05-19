@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using volvoTest.Models;
+using Volvo.Models;
 
-namespace volvoTest.Data
+namespace Volvo.Data
 {
     public class VolvoContext : DbContext
     {

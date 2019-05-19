@@ -4,7 +4,7 @@ using System.IO;
 using Newtonsoft.Json;
 using System.Linq;
 
-namespace volvoTest.Data
+namespace Volvo.Data
 {
     public class DbInitializer
     {

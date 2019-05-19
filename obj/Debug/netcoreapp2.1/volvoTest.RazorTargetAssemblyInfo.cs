@@ -9,10 +9,10 @@ using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ProvideApplicationPartFactoryAttribute("Microsoft.AspNetCore.Mvc.ApplicationParts.CompiledRazorAssemblyApplicationPartFac" +
 "tory, Microsoft.AspNetCore.Mvc.Razor")]
-[assembly: System.Reflection.AssemblyCompanyAttribute("volvoTest")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Volvo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyProductAttribute("volvoTest")]
+[assembly: System.Reflection.AssemblyProductAttribute("Volvo")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyTitleAttribute("volvoTest.Views")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Volvo.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

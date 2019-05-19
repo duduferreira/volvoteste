@@ -1,6 +1,6 @@
 using System;
 
-namespace volvoTest.Models
+namespace Volvo.Models
 {
     public class ErrorViewModel
     {

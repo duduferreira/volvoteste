@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using volvoTest.Data;
+using Volvo.Data;
 
-namespace volvoTest.Migrations
+namespace Volvo.Migrations
 {
     [DbContext(typeof(VolvoContext))]
     [Migration("20190519193622_inicial")]
@@ -20,7 +20,7 @@ namespace volvoTest.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("volvoTest.Models.Caminhao", b =>
+            modelBuilder.Entity("Volvo.Models.Caminhao", b =>
                 {
                     b.Property<int>("CaminhaoID")
                         .ValueGeneratedOnAdd()
@@ -46,7 +46,7 @@ namespace volvoTest.Migrations
                     b.ToTable("Caminhao");
                 });
 
-            modelBuilder.Entity("volvoTest.Models.Modelo", b =>
+            modelBuilder.Entity("Volvo.Models.Modelo", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -65,9 +65,9 @@ namespace volvoTest.Migrations
                     b.ToTable("Modelo");
                 });
 
-            modelBuilder.Entity("volvoTest.Models.Caminhao", b =>
+            modelBuilder.Entity("Volvo.Models.Caminhao", b =>
                 {
-                    b.HasOne("volvoTest.Models.Modelo", "Modelo")
+                    b.HasOne("Volvo.Models.Modelo", "Modelo")
                         .WithMany()
                         .HasForeignKey("ModeloID")
                         .OnDelete(DeleteBehavior.Cascade);

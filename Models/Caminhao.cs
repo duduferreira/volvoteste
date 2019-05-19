@@ -1,5 +1,5 @@
 using System.ComponentModel.DataAnnotations;
-namespace volvoTest.Models
+namespace Volvo.Models
 {
     public class Caminhao
     {

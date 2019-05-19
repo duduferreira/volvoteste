@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using volvoTest.Models;
+using Volvo.Models;
 
-namespace volvoTest.Controllers
+namespace Volvo.Controllers
 {
     public class HomeController : Controller
     {
