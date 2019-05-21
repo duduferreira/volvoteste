@@ -5,3 +5,5 @@ Para que a aplicação seja iniciada é necessário utilizar o CMD (prompt do wi
 Após isso, basta digitar o seguinte comando "dotnet run" e a aplicação será iniciada.
 Para acessar a aplicação no browser utilizale a URL "http://localhost:5000".
 
+Observação: O branch "master" foi atualizado utiliznado como fonte o branch "volvoGit"
+
