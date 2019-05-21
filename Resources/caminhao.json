@@ -1,0 +1,32 @@
+[
+    {
+        "descricao": "Caminhao teste 1",
+        "modeloId": 4,
+        "ano": "2000",
+        "anoModelo": "2000"
+    },
+    {
+        "descricao": "Caminhao teste 2",
+        "modeloId": 5,
+        "ano": "2001",
+        "anoModelo": "2002"
+    },
+    {
+        "descricao": "Caminhao teste 3",
+        "modeloId": 4,
+        "ano": "2004",
+        "anoModelo": "2004"
+    },
+    {
+        "descricao": "Caminhao teste 4",
+        "modeloId": 5,
+        "ano": "2010",
+        "anoModelo": "2011"
+    },
+    {
+        "descricao": "Caminhao teste 5",
+        "modeloId": 4,
+        "ano": "2018",
+        "anoModelo": "2019"
+    }
+]

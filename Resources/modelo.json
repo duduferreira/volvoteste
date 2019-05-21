@@ -1,0 +1,27 @@
+[
+    {
+        "descricao": "Modelo de teste 1",
+        "nome": "M1",
+        "ativo": false
+    },
+    {
+        "descricao": "Modelo de teste 2",
+        "nome": "M2",
+        "ativo": false
+    },
+    {
+        "descricao": "Modelo de teste 3",
+        "nome": "M3",
+        "ativo": false
+    },
+    {
+        "descricao": "Modelo FH",
+        "nome": "FH",
+        "ativo": true
+    },
+    {
+        "descricao": "Modelo FM",
+        "nome": "FM",
+        "ativo": true
+    }
+]
